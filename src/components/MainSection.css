@@ -1,0 +1,21 @@
+.main-section {
+  background-color: #f8f9fa;
+}
+
+.container-box {
+  border-radius: 8px;
+  padding: 20px;
+  height: 100%;
+}
+
+.container-box h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.container-box .updates-list {
+  background-color: transparent;
+  box-shadow: none;
+}

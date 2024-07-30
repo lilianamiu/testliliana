@@ -1,0 +1,68 @@
+.divider-nav {
+    width: 1px;
+    align-self: stretch;
+    background-color: #e0e0e0;
+  }
+
+  .btn-custom-circle {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: #218BCB;
+    border: none;
+  }
+
+  .btn-custom-circle:hover,
+  .btn-custom-circle:focus {
+    background-color: #1a6d9e;
+  }
+
+  .icon-plus {
+    width: 16px;
+    height: 16px;
+    color: white;
+  }
+
+  .btn-custom-padding {
+    padding: 8px 16px;
+    border-color: #218BCB;
+    color: #218BCB;
+    font-weight: 500;
+    border-radius:100px;
+  }
+
+  .btn-custom-padding:hover,
+  .btn-custom-padding:focus {
+    background-color: #E8F2FF;
+    border-color: #218BCB;
+    color: #218BCB;
+  }
+
+  .icon-download {
+    width: 16px;
+    height: 16px;
+  }
+
+  .badge-custom-padding { 
+    padding: 8px 12px; 
+    background-color: #E6F5FF;
+    color:#444444;
+    font-size:16px;
+    font-weight: 400;
+    border-radius:100px;
+  }
+  .custom-icon-padding {
+    padding-right: 10px;
+  }
+  .badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #218BCB;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }

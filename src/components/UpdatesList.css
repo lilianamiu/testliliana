@@ -1,0 +1,77 @@
+.updates-list {
+  border-left: 1px solid #e0e0e0;
+  padding-left: 32px;
+}
+
+.updates-list .list-group-flush {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.updates-list .update-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 1rem 0;
+  background-color: transparent;
+}
+
+.updates-list .update-item:last-child {
+  border-bottom: none;
+}
+
+.updates-list .icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  margin-right: 12px;
+}
+
+.updates-list .icon-badge svg {
+  width: 20px;
+  height: 20px;
+  color: #6c757d;
+}
+
+.updates-list .update-item h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444444;
+  margin-bottom: 0;
+}
+
+.updates-list .update-description {
+  font-size: 0.9rem;
+  color: #444444;
+  margin-left: 52px;
+}
+
+.updates-list .text-muted {
+  font-size: 0.8rem;
+  margin-left: 52px;
+  display: block;
+  color:#999999
+}
+
+.blue-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin-left: 4px;
+  }
+
+.icon-badge-faceid {
+    background-color: #F2C2C7!important;
+  }
+  .icon-16 {
+    width: 16px;
+    height: 16px;
+  }
+
+  .fs-14 {
+    font-size: 14px !important;
+  }

@@ -1,0 +1,99 @@
+.summary-card .card-body {
+  padding: 0;
+}
+
+.summary-card .list-group-horizontal {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.summary-card .list-group-item {
+  padding: 24px 20px;
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  /* Add this line to create the gap */
+}
+
+.summary-card .divider {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background-color: #dee2e6;
+}
+
+.summary-card .list-group-item:last-child .divider {
+  display: none;
+}
+
+/* Add these new styles for labels and values */
+.summary-label {
+  font-size: 12px;
+  color: #6E6E6E;
+  margin: 0;
+}
+
+.summary-value {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1A1A1A;
+  margin: 0;
+}
+
+.summary-card .list-group-item > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.summary-card .settings-button {
+  flex-shrink: 0;
+  width: 60px;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.summary-card .settings-button:hover,
+.summary-card .settings-button:focus {
+  background-color: #f8f9fa;
+}
+
+.summary-card .settings-button:active {
+  background-color: #e9ecef;
+}
+.summary-label {
+    font-size: 13px;
+    color: #999999!important;
+
+  }
+
+.custom-card {
+    border-radius: 8px;
+    border-color: #E1E1E1;
+  }
+
+  .badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+
+  .summary-badge-dot {
+    background-color: #B62537;
+  }
+
+  .profile-input .form-text {
+    font-size:12px;
+    color:#999999;
+  }

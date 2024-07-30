@@ -1,0 +1,65 @@
+.profile-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border:none;
+}
+
+.profile-section .card-header {
+  background-color: white;
+  border-bottom:none;
+}
+
+.profile-input .input-wrapper {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 12px;
+  height: 100%;
+}
+
+.profile-input .form-label {
+  font-size: 13px;
+  color: #999999;
+  margin-bottom: 0.25rem;
+}
+
+.profile-input .form-control {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.profile-input .form-control:read-only {
+  opacity: 1;
+}
+.profile-input .form-control:read-only:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+.profile-input .form-text {
+  font-size: 0.7rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+}
+
+.card-body .row + .row {
+  margin-top: 1rem;
+}
+
+.custom-size-heading {
+    font-size: 18px;
+  }
+
+  .profile-badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #218BCB;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:8px;
+  }
